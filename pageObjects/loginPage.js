@@ -16,11 +16,11 @@ let LoginPage = Object.create(Page,{
 },
 
     open: { value:function() {
+        browser.setWindowSize(1800,1200);
         Page.open.call(this,'login');
     }},
     submit: { value:function() {
         this.form.click();
-        browser.pause(15000);
     }}
 });
 module.exports = LoginPage;
