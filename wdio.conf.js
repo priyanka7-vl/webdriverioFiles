@@ -20,7 +20,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/googleLink.js'
+        './test/specs/**/**.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -126,7 +126,7 @@ exports.config = {
     reporters: ['spec','allure'],
     reporterOptions: {
         allure: {
-            outputDir: 'allure-results',
+            outputDir: 'allure-results1',
             disableWebdriverStepsReporting: true,
             disableWebdriverScreenshotsReporting: true,
             useCucumberStepReporter: false

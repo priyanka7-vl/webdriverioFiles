@@ -1,3 +1,4 @@
+const reporter = require('wdio-allure-reporter');
 const assert = require('assert');
 
 describe('DuckDuckGo search',  () => {

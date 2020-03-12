@@ -1,0 +1,108 @@
+{
+  "uid" : "5901ce12e8c7452d",
+  "name" : "should load",
+  "fullName" : "Api Page.should load",
+  "historyId" : "fbb0398a4a77621135a06378050c458f",
+  "time" : {
+    "start" : 1583999865323,
+    "stop" : 1583999867111,
+    "duration" : 1788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583999865328,
+        "stop" : 1583999867104,
+        "duration" : 1776
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8aa97d64d7e21bbe",
+        "name" : "Request",
+        "source" : "8aa97d64d7e21bbe.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1583999867105,
+        "stop" : 1583999867110,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85d8bde1b3f14cb6",
+        "name" : "Response",
+        "source" : "85d8bde1b3f14cb6.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should load"
+  }, {
+    "name" : "package",
+    "value" : "Api Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5901ce12e8c7452d.json",
+  "parameterValues" : [ "chrome" ]
+}

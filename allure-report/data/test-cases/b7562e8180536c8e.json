@@ -1,0 +1,114 @@
+{
+  "uid" : "b7562e8180536c8e",
+  "name" : "should execute async JavaScript on the page",
+  "fullName" : "js executor.should execute async JavaScript on the page",
+  "historyId" : "5a12b34ece53ac9ad8b723723bbc6cd2",
+  "time" : {
+    "start" : 1584008029076,
+    "stop" : 1584008032178,
+    "duration" : 3102
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1584008029078,
+        "stop" : 1584008029088,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79b2985d2bfda111",
+        "name" : "Request",
+        "source" : "79b2985d2bfda111.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/async",
+      "time" : {
+        "start" : 1584008029088,
+        "stop" : 1584008032175,
+        "duration" : 3087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ead441f61c1fc4e",
+        "name" : "Request",
+        "source" : "ead441f61c1fc4e.json",
+        "type" : "application/json",
+        "size" : 209
+      }, {
+        "uid" : "aeedc9641bf30a67",
+        "name" : "Response",
+        "source" : "aeedc9641bf30a67.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "js executor"
+  }, {
+    "name" : "testClass",
+    "value" : "js executor"
+  }, {
+    "name" : "testMethod",
+    "value" : "should execute async JavaScript on the page"
+  }, {
+    "name" : "package",
+    "value" : "js executor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7562e8180536c8e.json",
+  "parameterValues" : [ "chrome" ]
+}

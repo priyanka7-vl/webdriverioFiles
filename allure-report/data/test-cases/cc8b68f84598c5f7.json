@@ -1,0 +1,108 @@
+{
+  "uid" : "cc8b68f84598c5f7",
+  "name" : "should open webdriverio page",
+  "fullName" : "Api Page.should open webdriverio page",
+  "historyId" : "ba49db57686453ecdd0d6af046a76731",
+  "time" : {
+    "start" : 1584008025899,
+    "stop" : 1584008028828,
+    "duration" : 2929
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584008025900,
+        "stop" : 1584008028820,
+        "duration" : 2920
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d5fd97171600468",
+        "name" : "Request",
+        "source" : "2d5fd97171600468.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1584008028820,
+        "stop" : 1584008028828,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "157434fdf7c7cbd4",
+        "name" : "Response",
+        "source" : "157434fdf7c7cbd4.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open webdriverio page"
+  }, {
+    "name" : "package",
+    "value" : "Api Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc8b68f84598c5f7.json",
+  "parameterValues" : [ "chrome" ]
+}

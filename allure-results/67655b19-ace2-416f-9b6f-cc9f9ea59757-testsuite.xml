@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584008039227' stop='1584008046395'>
+    <name>opening youtube</name>
+    <title>opening youtube</title>
+    <test-cases>
+        <test-case start='1584008039227' status='broken' stop='1584008046393'>
+            <name>should open youtube</name>
+            <title>should open youtube</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584008039232' status='passed' stop='1584008045825'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ab232bde-b240-4c97-b5a3-91de19013985-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584008045826' status='passed' stop='1584008045972'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='daaa018f-4496-4b37-b8e2-e1f54d78fd22-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='c49b5568-d227-4f96-8ad7-28cc0cfc6864-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584008045997' status='broken' stop='1584008046393'>
+                    <name>POST /session/:sessionId/element/47418dc3-dae8-4322-bb51-6250e6310bf0/clear</name>
+                    <title>POST /session/:sessionId/element/47418dc3-dae8-4322-bb51-6250e6310bf0/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid element state
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>invalid element state
+                  (Session info: chrome=79.0.3945.130)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

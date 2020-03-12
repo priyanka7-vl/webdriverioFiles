@@ -1,11 +1,141 @@
 [ {
-  "uid" : "1a9b24d45f8a8189",
-  "name" : "should load",
+  "uid" : "c6af76ea04857bb6",
+  "name" : "should open webdriverio page",
   "time" : {
-    "start" : 1583928916075,
-    "stop" : 1583928917269,
-    "duration" : 1194
+    "start" : 1584008367859,
+    "stop" : 1584008369589,
+    "duration" : 1730
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbda71588c012106",
+  "name" : "should load",
+  "time" : {
+    "start" : 1584008365771,
+    "stop" : 1584008367859,
+    "duration" : 2088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe7a9446383736fc",
+  "name" : "login",
+  "time" : {
+    "start" : 1584008367809,
+    "stop" : 1584008393419,
+    "duration" : 25610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea91a8801d7e0cfd",
+  "name" : "should have the right heading",
+  "time" : {
+    "start" : 1584008398938,
+    "stop" : 1584008400153,
+    "duration" : 1215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4723d3135f6cc095",
+  "name" : "Lambdatest Demo TestCase",
+  "time" : {
+    "start" : 1584008365902,
+    "stop" : 1584008370072,
+    "duration" : 4170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deea243a108b2ae1",
+  "name" : "should open with google sign-in",
+  "time" : {
+    "start" : 1584008372579,
+    "stop" : 1584008403140,
+    "duration" : 30561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de648afd781f41ba",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1584008365593,
+    "stop" : 1584008398938,
+    "duration" : 33345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "446bf268802d0de1",
+  "name" : "searches for css",
+  "time" : {
+    "start" : 1584008377615,
+    "stop" : 1584008379598,
+    "duration" : 1983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcc69b387f4ad790",
+  "name" : "should search “drag and drop” page",
+  "time" : {
+    "start" : 1584008373480,
+    "stop" : 1584008386545,
+    "duration" : 13065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f74159bbe7629c3",
+  "name" : "should execute async JavaScript on the page",
+  "time" : {
+    "start" : 1584008367812,
+    "stop" : 1584008370886,
+    "duration" : 3074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6eff20ee6904f48",
+  "name" : "should have the tag line",
+  "time" : {
+    "start" : 1584008400153,
+    "stop" : 1584008400670,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d695a71804956ec2",
+  "name" : "searches for WebdriverIO",
+  "time" : {
+    "start" : 1584008371408,
+    "stop" : 1584008374791,
+    "duration" : 3383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "389b2bb1268a42b6",
+  "name" : "searches for html",
+  "time" : {
+    "start" : 1584008374825,
+    "stop" : 1584008377615,
+    "duration" : 2790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "560f07e3343608e4",
+  "name" : "should open youtube",
+  "time" : {
+    "start" : 1584008294802,
+    "stop" : 1584008301053,
+    "duration" : 6251
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

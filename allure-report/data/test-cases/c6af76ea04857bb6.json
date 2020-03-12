@@ -1,0 +1,166 @@
+{
+  "uid" : "c6af76ea04857bb6",
+  "name" : "should open webdriverio page",
+  "fullName" : "Api Page.should open webdriverio page",
+  "historyId" : "ba49db57686453ecdd0d6af046a76731",
+  "time" : {
+    "start" : 1584008367859,
+    "stop" : 1584008369589,
+    "duration" : 1730
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584008367860,
+        "stop" : 1584008369578,
+        "duration" : 1718
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "201cd8e0c304ea57",
+        "name" : "Request",
+        "source" : "201cd8e0c304ea57.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1584008369578,
+        "stop" : 1584008369589,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a920ce7d004ba68",
+        "name" : "Response",
+        "source" : "a920ce7d004ba68.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Api Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Api Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open webdriverio page"
+  }, {
+    "name" : "package",
+    "value" : "Api Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74c9b2f5f044d545",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584008288158,
+        "stop" : 1584008290237,
+        "duration" : 2079
+      }
+    }, {
+      "uid" : "cc8b68f84598c5f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584008025899,
+        "stop" : 1584008028828,
+        "duration" : 2929
+      }
+    }, {
+      "uid" : "ee6b231c8c40dda1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584006793153,
+        "stop" : 1584006795338,
+        "duration" : 2185
+      }
+    }, {
+      "uid" : "c09e4eb18fc6f586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583999958693,
+        "stop" : 1583999961899,
+        "duration" : 3206
+      }
+    }, {
+      "uid" : "1ddde18f2dd91bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583999867111,
+        "stop" : 1583999868698,
+        "duration" : 1587
+      }
+    }, {
+      "uid" : "945edfc2b1613b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583995346077,
+        "stop" : 1583995350585,
+        "duration" : 4508
+      }
+    }, {
+      "uid" : "18b2d12e2e7154ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583994881072,
+        "stop" : 1583994883133,
+        "duration" : 2061
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6af76ea04857bb6.json",
+  "parameterValues" : [ "chrome" ]
+}

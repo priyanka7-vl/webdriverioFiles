@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584008367812' stop='1584008370887'>
+    <name>js executor</name>
+    <title>js executor</title>
+    <test-cases>
+        <test-case start='1584008367812' status='passed' stop='1584008370886'>
+            <name>should execute async JavaScript on the page</name>
+            <title>should execute async JavaScript on the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584008367815' status='passed' stop='1584008367843'>
+                    <name>POST /session/:sessionId/timeouts</name>
+                    <title>POST /session/:sessionId/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='53303e1d-e3e4-46c0-a94c-99d3cc8701ff-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584008367844' status='passed' stop='1584008370883'>
+                    <name>POST /session/:sessionId/execute/async</name>
+                    <title>POST /session/:sessionId/execute/async</title>
+                    <attachments>
+                        <attachment title='Request' source='0b258c91-a3df-4ac3-8cc3-84743e470dbc-attachment.json' type='application/json' size='209'/>
+                        <attachment title='Response' source='b6b11529-c7d8-40b8-b0e3-ff2ae4cef6f9-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

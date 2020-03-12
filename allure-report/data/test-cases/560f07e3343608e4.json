@@ -1,0 +1,149 @@
+{
+  "uid" : "560f07e3343608e4",
+  "name" : "should open youtube",
+  "fullName" : "opening youtube.should open youtube",
+  "historyId" : "db6c9a47a3d3f35e79db154c1a5f3ad2",
+  "time" : {
+    "start" : 1584008294802,
+    "stop" : 1584008301053,
+    "duration" : 6251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+  "statusTrace" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+    "statusTrace" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584008294807,
+        "stop" : 1584008300717,
+        "duration" : 5910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8ef6bcaaada0341",
+        "name" : "Request",
+        "source" : "e8ef6bcaaada0341.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1584008300721,
+        "stop" : 1584008300825,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd3e037b941fc28a",
+        "name" : "Request",
+        "source" : "cd3e037b941fc28a.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "aa6ca739e3e77c57",
+        "name" : "Response",
+        "source" : "aa6ca739e3e77c57.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ebd1ba41-ceb9-478d-9c86-17f73c052b82/clear",
+      "time" : {
+        "start" : 1584008300842,
+        "stop" : 1584008301053,
+        "duration" : 211
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "opening youtube"
+  }, {
+    "name" : "testClass",
+    "value" : "opening youtube"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open youtube"
+  }, {
+    "name" : "package",
+    "value" : "opening youtube"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cbdf11b9924c484d",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1584008039227,
+        "stop" : 1584008046393,
+        "duration" : 7166
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "560f07e3343608e4.json",
+  "parameterValues" : [ "chrome" ]
+}

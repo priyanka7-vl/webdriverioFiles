@@ -1,0 +1,169 @@
+{
+  "uid" : "e6eff20ee6904f48",
+  "name" : "should have the tag line",
+  "fullName" : "webdriver.io page.should have the tag line",
+  "historyId" : "71bb19c3b9366c9ce1b276ce349bb41e",
+  "time" : {
+    "start" : 1584008400153,
+    "stop" : 1584008400670,
+    "duration" : 517
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584008400154,
+        "stop" : 1584008400625,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66080f5f2a6d675a",
+        "name" : "Request",
+        "source" : "66080f5f2a6d675a.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1584008400625,
+        "stop" : 1584008400653,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c1ccf75d50613b3",
+        "name" : "Request",
+        "source" : "1c1ccf75d50613b3.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "deb667d622402f7a",
+        "name" : "Response",
+        "source" : "deb667d622402f7a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/8361d1d7-98c5-43ae-adf5-06ccbedaae91/text",
+      "time" : {
+        "start" : 1584008400656,
+        "stop" : 1584008400670,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef58a38a2642027",
+        "name" : "Response",
+        "source" : "ef58a38a2642027.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testClass",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the tag line"
+  }, {
+    "name" : "package",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "acfc57e66ae6fa69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584008292324,
+        "stop" : 1584008293674,
+        "duration" : 1350
+      }
+    }, {
+      "uid" : "ff8a0c6f0fca9113",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584008031036,
+        "stop" : 1584008033105,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "eab55c4c83e37e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584007916493,
+        "stop" : 1584007917700,
+        "duration" : 1207
+      }
+    }, {
+      "uid" : "d2faa31e6f146ca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584007385900,
+        "stop" : 1584007386725,
+        "duration" : 825
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6eff20ee6904f48.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,8 +1,107 @@
 {
-  "total" : 1,
+  "total" : 10,
   "items" : [ {
+    "uid" : "af9eb5316d01ac311fca101d06d3f132",
+    "name" : "opening youtube",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "601e7f3c0a9c957fa7f229ca6a567c98",
+    "name" : "webdriver.io page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "4e81b31d10c446ef7f8a492f8a9d7684",
     "name" : "Api Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "187db89b840e5d00e2c198598849c11a",
+    "name" : "Google Search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "becc7ac0962ffd324870d76ee111bbb9",
+    "name" : "Lambdatest Demo Test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "aa0eb6ba29dc53ffcb4485cbc37f7d26",
+    "name" : "JavascriptExecutor",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ca0001c3d63c03c701e8d34531ceb399",
+    "name" : "js executor",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "78acfb710f47840c20675b8f5323087c",
+    "name" : "DuckDuckGo search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e7a5c892836fe8c5695bfbd5fc282764",
+    "name" : "opening salesmate",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3f89ae81894f5f4c26980c1bbae8b3c8",
+    "name" : "Search input on webdriver.io page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+      "children" : [ {
+        "name" : "should open youtube",
+        "uid" : "560f07e3343608e4",
+        "parentUid" : "b733ac82dd8178dc59d9639d1ec378db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1584008294802,
+          "stop" : 1584008301053,
+          "duration" : 6251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b733ac82dd8178dc59d9639d1ec378db"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

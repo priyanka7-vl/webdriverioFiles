@@ -1,0 +1,9 @@
+{
+  "script": "return (function(a, b, c, d, done) {\n        setTimeout(() => {\n            done(a + b + c + d)\n        }, 3000);\n    }).apply(null, arguments)",
+  "args": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

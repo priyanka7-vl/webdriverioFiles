@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//select[@name='cc_exp_dt_mn']//option[contains(text(),'04')]"
+}

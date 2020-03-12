@@ -1,0 +1,134 @@
+{
+  "uid" : "cbdf11b9924c484d",
+  "name" : "should open youtube",
+  "fullName" : "opening youtube.should open youtube",
+  "historyId" : "db6c9a47a3d3f35e79db154c1a5f3ad2",
+  "time" : {
+    "start" : 1584008039227,
+    "stop" : 1584008046393,
+    "duration" : 7166
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+  "statusTrace" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)",
+    "statusTrace" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584008039232,
+        "stop" : 1584008045825,
+        "duration" : 6593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0906519ffc85ff7",
+        "name" : "Request",
+        "source" : "e0906519ffc85ff7.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1584008045826,
+        "stop" : 1584008045972,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64cf39104a132098",
+        "name" : "Request",
+        "source" : "64cf39104a132098.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "cead84fe921ab640",
+        "name" : "Response",
+        "source" : "cead84fe921ab640.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/47418dc3-dae8-4322-bb51-6250e6310bf0/clear",
+      "time" : {
+        "start" : 1584008045997,
+        "stop" : 1584008046393,
+        "duration" : 396
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid element state\n                  (Session info: chrome=79.0.3945.130)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Documents/webdriverioFiles/test/specs/login.js:34:20)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "opening youtube"
+  }, {
+    "name" : "testClass",
+    "value" : "opening youtube"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open youtube"
+  }, {
+    "name" : "package",
+    "value" : "opening youtube"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbdf11b9924c484d.json",
+  "parameterValues" : [ "chrome" ]
+}
